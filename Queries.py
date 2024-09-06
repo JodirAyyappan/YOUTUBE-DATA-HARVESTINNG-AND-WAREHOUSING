@@ -17,7 +17,7 @@ option = st.selectbox("Select your query", ("1. What are the names of all the vi
 mydb = mysql.connector.connect(
     host="localhost",
     user="root",
-    password="ScienceBase%5",
+    password="",
     database="YOUTUBE_DHW"
 )
 
@@ -28,7 +28,7 @@ if(option == "1. What are the names of all the videos and their corresponding ch
     mydb = mysql.connector.connect(
     host="localhost",
     user="root",
-    password="ScienceBase%5",
+    password="",
     database="YOUTUBE_DHW"
     )
 
@@ -46,7 +46,7 @@ if(option == "2. Which channels have the most number of videos, and how many vid
     mydb = mysql.connector.connect(
     host="localhost",
     user="root",
-    password="ScienceBase%5",
+    password="",
     database="YOUTUBE_DHW"
     )
 
@@ -64,7 +64,7 @@ if(option == "3. What are the top 10 most viewed videos and their respective cha
     mydb = mysql.connector.connect(
     host="localhost",
     user="root",
-    password="ScienceBase%5",
+    password="",
     database="YOUTUBE_DHW"
     )
 
@@ -82,7 +82,7 @@ if(option == "4. How many comments were made on each video, and what are their c
     mydb = mysql.connector.connect(
     host="localhost",
     user="root",
-    password="ScienceBase%5",
+    password="",
     database="YOUTUBE_DHW"
     )
 
@@ -100,7 +100,7 @@ if(option == "5. Which videos have the highest number of likes, and what are the
     mydb = mysql.connector.connect(
     host="localhost",
     user="root",
-    password="ScienceBase%5",
+    password="",
     database="YOUTUBE_DHW"
     )
 
@@ -118,7 +118,7 @@ if(option == "6. What is the total number of likes for each video, and what are 
     mydb = mysql.connector.connect(
     host="localhost",
     user="root",
-    password="ScienceBase%5",
+    password="",
     database="YOUTUBE_DHW"
     )
 
@@ -136,7 +136,7 @@ if(option == "7. What is the total number of views for each channel, and what ar
     mydb = mysql.connector.connect(
     host="localhost",
     user="root",
-    password="ScienceBase%5",
+    password="",
     database="YOUTUBE_DHW"
     )
 
@@ -154,7 +154,7 @@ if(option == "8. What are the names of all the channels that have published vide
     mydb = mysql.connector.connect(
     host="localhost",
     user="root",
-    password="ScienceBase%5",
+    password="",
     database="YOUTUBE_DHW"
     )
 
@@ -172,7 +172,7 @@ if(option == "9. What is the average duration of all videos in each channel, and
     mydb = mysql.connector.connect(
     host="localhost",
     user="root",
-    password="ScienceBase%5",
+    password="",
     database="YOUTUBE_DHW"
     )
 
@@ -190,7 +190,7 @@ if(option == "10. Which videos have the highest number of comments, and what are
     mydb = mysql.connector.connect(
     host="localhost",
     user="root",
-    password="ScienceBase%5",
+    password="",
     database="YOUTUBE_DHW"
     )
 
